@@ -1,0 +1,42 @@
+*{
+    border:0px;
+    margin: 0px;
+}
+
+header{
+    background-color: red;
+}
+.submenu{
+    position: absolute;
+}
+.submenu li{
+    display: none;
+}
+
+
+.menu li:hover  .submenu li{
+    display: block;
+}
+
+
+
+
+.navegacion{
+    width: 1000px;
+    margin: 30px auto;
+
+    background-color: black;
+}
+.menu >li{
+    position: relative;
+    display:inline-block;
+    margin-left: 50px;
+    padding: 10px;
+  
+}
+
+.submenu li a{
+    display: block;
+    padding: 10px;
+   background-color: black;
+}
